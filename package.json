@@ -14,9 +14,7 @@
     "history": "^1.13.0",
     "radium": "^0.16.6",
     "react": "^0.14.2",
-    "react-dom": "^0.14.2",
-    "react-router": "^1.0.0-rc4",
-    "react-timer": "^1.0.0"
+    "react-dom": "^0.14.2"
   },
   "devDependencies": {
     "babel-core": "^6.1.2",
