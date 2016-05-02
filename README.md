@@ -1,6 +1,8 @@
 # Eightball
 React frontend consuming Rails JSON API
 
+#### URL: https://eight-ball123.firebaseapp.com/
+
 ### To install:
 
 ```
