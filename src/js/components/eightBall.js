@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import axios from 'axios'
 
-export default class HelloWorld extends Component {
+export default class EightBall extends Component {
   constructor() {
     super()
     this.state = { response: [], isClicked: true }

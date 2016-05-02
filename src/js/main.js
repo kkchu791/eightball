@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HelloWorld from './components/HelloWorld';
+import EightBall from './components/eightBall';
 
 let OPTIONS = { prefix: 'seconds elapsed!', delay: 100}
 
 ReactDOM.render(
   <div>
-    <HelloWorld />
+    <EightBall />
   </div>
   ,document.getElementById('main'));
 
