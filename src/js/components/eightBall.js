@@ -28,7 +28,7 @@ export default class EightBall extends Component {
       return (
         <div>
           <button className='btn-warning' onClick={function(){this.onPress(); this.getResponse()}.bind(this)}>Shake</button>
-          <h1>{this.state.response.map(e => e['attributes']['reply'])[Math.floor((Math.random() * 20) + 1)]}</h1>
+          <h1 style={{color:'#e5e500'}}>{this.state.response.map(e => e['attributes']['reply'])[Math.floor((Math.random() * 20) + 1)]}</h1>
         </div>
       )
     }
