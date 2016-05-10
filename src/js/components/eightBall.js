@@ -8,7 +8,11 @@ export default class EightBall extends Component {
   }
 
   getResponse(){
-    axios.get("http://localhost:3001/responses")
+    let config = {
+      headers: {'Authorization': 'Token token="<ADD_API_KEY_HERE>'}
+    }
+ 
+    axios.get("http://localhost:3001/responses", config)
       .then((response) => {
         console.log(response.data['data']);
         this.setState({ response: response.data['data']})
